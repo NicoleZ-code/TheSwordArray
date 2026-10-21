@@ -2,6 +2,8 @@
 
 青竹蜂云剑阵 (The Sword Array) /大庚剑阵
 
+**Live demo:** [theswordarray.pages.dev](https://theswordarray.pages.dev/)
+
 A browser-based 3D sword array controlled by hand gestures. Move your hand in front of the camera to switch between a flowing dragon, a spherical shield, a sword lotus, and the Grand Geng sword formation.
 
 ## Source and credits
@@ -72,15 +74,17 @@ See [the documentation index](doc/README.md) and [the technology-to-file guide](
 
 ## Cloudflare Pages
 
-The deployed application uses the React edition. The Pages project identifier is `theswordarray` and the production branch is `main`.
+The [deployed application](https://theswordarray.pages.dev/) uses the React edition. The Pages project identifier is `theswordarray` and the production branch is `main`. Changes pushed to `main` trigger automatic production deployments.
 
 For a Git-integrated Pages project, use:
 
 | Setting | Value |
 | --- | --- |
 | Root directory | `React` |
-| Build command | `npm ci && npm run build` |
+| Build command | `npm ci --no-audit --no-fund && npm run build` |
 | Build output directory | `dist` |
+| Build environment: `NODE_VERSION` | `22.23.1` |
+| Build environment: `SKIP_DEPENDENCY_INSTALL` | `true` |
 
 ## License
 
