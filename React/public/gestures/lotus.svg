@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260" role="img" aria-labelledby="title">
+<title id="title">张开手掌手势示意图</title>
+<defs><linearGradient id="skin" x1="0" x2="1" y2="1"><stop stop-color="#f7d6b0"/><stop offset="1" stop-color="#d6a17c"/></linearGradient><linearGradient id="sleeve" x2="0" y2="1"><stop stop-color="#304b52"/><stop offset="1" stop-color="#182d37"/></linearGradient></defs>
+<ellipse cx="160" cy="245" rx="58" ry="8" fill="#061218" opacity=".35"/>
+<path d="M129 220H196L203 257H123Z" fill="url(#sleeve)" stroke="#618c87" stroke-width="2"/>
+<rect x="109" y="43" width="24" height="109" rx="12" fill="url(#skin)" stroke="#80d9b2" stroke-width="2.5"/>
+<path d="M115 79h12m-12 32h12" stroke="#b48062" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+<circle cx="121.0" cy="31" r="3.5" fill="#8ee3b7"/>
+<rect x="139" y="26" width="25" height="126" rx="12" fill="url(#skin)" stroke="#80d9b2" stroke-width="2.5"/>
+<path d="M145 62h13m-13 32h13" stroke="#b48062" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+<circle cx="151.5" cy="14" r="3.5" fill="#8ee3b7"/>
+<rect x="169" y="41" width="24" height="111" rx="12" fill="url(#skin)" stroke="#80d9b2" stroke-width="2.5"/>
+<path d="M175 77h12m-12 32h12" stroke="#b48062" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+<circle cx="181.0" cy="29" r="3.5" fill="#8ee3b7"/>
+<rect x="199" y="68" width="23" height="87" rx="12" fill="url(#skin)" stroke="#80d9b2" stroke-width="2.5"/>
+<path d="M205 104h11m-11 32h11" stroke="#b48062" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+<circle cx="210.5" cy="56" r="3.5" fill="#8ee3b7"/>
+<path d="M114 109Q103 116 104 141L105 176Q108 201 132 212L136 237H189L192 213Q215 204 220 179L223 132Q224 117 214 110Z" fill="url(#skin)" stroke="#956d54" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M117 181Q101 178 89 165L56 137Q45 127 52 119Q58 111 69 118L103 138Q116 141 125 153" fill="url(#skin)" stroke="#80d9b2" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M76 135l-5 7" stroke="#b48062" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="47" cy="105" r="3.5" fill="#8ee3b7"/>
+<path d="M137 199Q163 186 192 187M148 219Q168 216 183 221" fill="none" stroke="#b48062" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<path d="M135 245H192" stroke="#d5bd80" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber';
 import { useEffect, useRef, useState } from 'react';
 import { Scene } from './components/Scene';
 import { HandController } from './components/HandController';
+import { GestureGuide } from './components/GestureGuide';
 import { initHandTracking } from './services/HandTrackingService';
 import { useHandStore } from './store';
 import './index.css';
@@ -13,6 +14,8 @@ function StatusIndicator() {
   const getModeText = () => {
     if (!isTracking) return '⏳ 等待手势...';
     switch (gestureMode) {
+      case 'DAGENG':
+        return '🤘 大庚剑阵';
       case 'LOTUS':
         return '🌸 莲花阵型';
       case 'SHIELD':
@@ -25,6 +28,8 @@ function StatusIndicator() {
   const getModeColor = () => {
     if (!isTracking) return '#ff6666';
     switch (gestureMode) {
+      case 'DAGENG':
+        return '#ffdd88';
       case 'LOTUS':
         return '#ffaa44';
       case 'SHIELD':
@@ -61,6 +66,8 @@ function UI() {
   const getColor = () => {
     if (!isTracking) return '#00ff88';
     switch (gestureMode) {
+      case 'DAGENG':
+        return '#ffdd88';
       case 'LOTUS':
         return '#ffaa44';
       case 'SHIELD':
@@ -71,7 +78,7 @@ function UI() {
   };
 
   const getHint = () => {
-    if (!isTracking) return '� 请挥手激活飞剑...';
+    if (!isTracking) return '👋 请挥手激活飞剑...';
     switch (gestureMode) {
       case 'DAGENG':
         return '🤘 结印 · 大庚剑阵';
@@ -81,7 +88,7 @@ function UI() {
         return '✊ 握拳 · 剑盾护体';
       case 'DRAGON':
       default:
-        return '� 剑指 · 游龙随行';
+        return '✌️ 剑指 · 游龙随行';
     }
   };
 
@@ -169,6 +176,7 @@ export default function App() {
 
         <StatusIndicator />
         <UI />
+        <GestureGuide />
       </div>
     </OrientationGuard>
   );

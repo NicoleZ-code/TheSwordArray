@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260" role="img" aria-labelledby="title">
+<title id="title">握紧拳头手势示意图</title>
+<defs><linearGradient id="skin" x1="0" x2="1" y2="1"><stop stop-color="#f7d6b0"/><stop offset="1" stop-color="#d6a17c"/></linearGradient><linearGradient id="sleeve" x2="0" y2="1"><stop stop-color="#304b52"/><stop offset="1" stop-color="#182d37"/></linearGradient></defs>
+<ellipse cx="160" cy="245" rx="58" ry="8" fill="#061218" opacity=".35"/>
+<path d="M129 220H196L203 257H123Z" fill="url(#sleeve)" stroke="#618c87" stroke-width="2"/>
+<path d="M114 109Q103 116 104 141L105 176Q108 201 132 212L136 237H189L192 213Q215 204 220 179L223 132Q224 117 214 110Z" fill="url(#skin)" stroke="#956d54" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="108" y="112" width="26" height="46" rx="12" fill="url(#skin)" stroke="#a67457" stroke-width="2"/>
+<path d="M114 140q7 4 14 0" fill="none" stroke="#a67457" stroke-width="1.7" stroke-linecap="round"/>
+<rect x="138" y="112" width="27" height="46" rx="12" fill="url(#skin)" stroke="#a67457" stroke-width="2"/>
+<path d="M144 140q7 4 15 0" fill="none" stroke="#a67457" stroke-width="1.7" stroke-linecap="round"/>
+<rect x="168" y="112" width="26" height="46" rx="12" fill="url(#skin)" stroke="#a67457" stroke-width="2"/>
+<path d="M174 140q7 4 14 0" fill="none" stroke="#a67457" stroke-width="1.7" stroke-linecap="round"/>
+<rect x="198" y="120" width="25" height="46" rx="12" fill="url(#skin)" stroke="#a67457" stroke-width="2"/>
+<path d="M204 148q7 4 13 0" fill="none" stroke="#a67457" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M106 153Q111 139 121 144L157 166Q169 173 160 183Q155 190 145 184L119 172" fill="url(#skin)" stroke="#a67457" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M137 199Q163 186 192 187M148 219Q168 216 183 221" fill="none" stroke="#b48062" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<path d="M135 245H192" stroke="#d5bd80" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
