@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local configuration and credentials
+.env*
+!.env*.example
+!.env*.template
+*.pem
+*.key
+credentials.json
+
+# Local caches, logs, and operating system files
+__pycache__/
+.venv/
+*.log
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+*.tsbuildinfo
+.cloudflare/
+.wrangler/
+
+# Local agent settings
+.codex/
+.claude/

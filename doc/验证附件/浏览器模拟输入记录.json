@@ -1,0 +1,109 @@
+{
+  "environment": "Headless Chrome, software WebGL, fake camera, injected landmark results for gesture probes",
+  "state": {
+    "title": "大庚剑阵",
+    "canvasCount": 1,
+    "uiText": "⏳ 等待手势...\n青竹蜂云剑\n\n� 请挥手激活飞剑...",
+    "videoReadyState": 4,
+    "landmarkerReady": true,
+    "swordPositionsCount": 500,
+    "tracking": false,
+    "gesture": "LOTUS"
+  },
+  "probes": [
+    {
+      "requested": "LOTUS",
+      "confirmed": "LOTUS",
+      "tracking": true,
+      "target": [
+        3.084170138495579,
+        0.14694047463858784,
+        0
+      ],
+      "swordPositionsFinite": true,
+      "meshScales": {
+        "main": 1.0000000029256464,
+        "second": 1.0000000200454118,
+        "last": 0.9999999884388922
+      }
+    },
+    {
+      "requested": "SHIELD",
+      "confirmed": "SHIELD",
+      "tracking": true,
+      "target": [
+        3.462169948673277,
+        0.09525074934095379,
+        0
+      ],
+      "swordPositionsFinite": true,
+      "meshScales": {
+        "main": 1.0000000043886832,
+        "second": 1.0000000021244397,
+        "last": 1.0000000107803797
+      }
+    },
+    {
+      "requested": "DRAGON",
+      "confirmed": "DRAGON",
+      "tracking": true,
+      "target": [
+        0.9985659312268993,
+        0.01237387223983566,
+        0
+      ],
+      "swordPositionsFinite": true,
+      "meshScales": {
+        "main": 0.9999999949177737,
+        "second": 1.000000027277845,
+        "last": 0.999999975758708
+      }
+    },
+    {
+      "requested": "DAGENG",
+      "confirmed": "DAGENG",
+      "tracking": true,
+      "target": [
+        1.109466936077096,
+        -0.03411128972774735,
+        0
+      ],
+      "swordPositionsFinite": true,
+      "meshScales": {
+        "main": 1.5450018644332886,
+        "second": 1.5441018342971802,
+        "last": 1.5000019073486328
+      }
+    },
+    {
+      "requested": "TRACKING_LOST_AFTER_DAGENG",
+      "confirmed": "DAGENG",
+      "tracking": false
+    }
+  ],
+  "events": [
+    {
+      "type": "model-response",
+      "status": 200,
+      "url": "http://127.0.0.1:5175/models/wasm/vision_wasm_internal.js"
+    },
+    {
+      "type": "model-response",
+      "status": 200,
+      "url": "http://127.0.0.1:5175/models/wasm/vision_wasm_internal.wasm"
+    },
+    {
+      "type": "model-response",
+      "status": 200,
+      "url": "http://127.0.0.1:5175/models/hand_landmarker.task"
+    },
+    {
+      "type": "warning",
+      "text": "W1021 07:16:04.711000 1819728 gl_context.cc:1002] OpenGL error checking is disabled"
+    },
+    {
+      "type": "log",
+      "text": "Hand tracking initialized successfully"
+    }
+  ]
+}
