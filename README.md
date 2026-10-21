@@ -6,7 +6,9 @@ A browser-based 3D sword array controlled by hand gestures. Move your hand in fr
 
 ## Source and credits
 
-**Original code source: Up主 (UP creator).** The creator's name and original video or source URL have not been provided yet. This repository preserves the supplied source and original instructions; it does not claim original authorship of that code.
+**Original code source: Bilibili UP creator [一只喵猫Miao](https://space.bilibili.com/8940668).** This repository preserves the supplied source and original instructions; it does not claim original authorship of that code.
+
+Original video: [Gemini 3.0手搓能手势控制的凡人大庚剑阵让Gemini复刻了凡人修仙传的飞剑效果，手势操作万剑归宗的效果拉满了！](https://www.bilibili.com/video/BV1tprgBkE35/) · [Shared link](https://b23.tv/GVBNgUQ)
 
 The supplied React instructions include the credit “Created by User & Gemini 3.0”. See [the original React instructions](React/说明文档.md) and [the original HTML instructions](HTML/说明文档.md).
 
